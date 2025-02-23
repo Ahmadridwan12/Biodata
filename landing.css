@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header{
+    width: 100%;
+    height: auto;
+    background-color: rgb(36, 55, 100);
+    padding-bottom: 1rem;
+}
+
+.navbar-brand h4{
+    color: rgb(255, 255, 255);
+}
+.navbar-nav id{
+    font-weight: 800;
+    color: rgb(255, 221, 0);
+    margin-right: 2.5rem;
+}
+.navbar-nav a:hover{
+    color: rgb(89, 191, 216);
+}
+.navbar-nav{
+    padding-right: 5rem;
+}
+.wrap_navbar{
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+    background-color: rgb(36, 55, 100);
+    z-index: 99999;
+    border-bottom: 1px solid;
+}
+.navbar-brand{
+    padding-left: 3rem;
+}
+
+.pembungkus{
+    padding-top: 4rem;
+    display: flex;
+    align-items: left;
+}
+.nama h1{
+    color: white;
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+.Asal h3{
+    color: rgb(0, 213, 255);
+    padding-bottom: 1rem;
+}
+.deskripsi p{
+    color: white;
+    font-weight: 300;
+    padding-bottom: 1.5rem;
+}
+.tombol a{
+    text-decoration: none;
+    color: rgb(0, 213, 255);
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid rgb(0, 213, 255);
+    font-weight: 700;
+    border-radius: 20px;
+}
+
+.tombol a:hover {
+    background-color: rgb(0, 213, 255);
+    color: rgb(36, 55, 100);
+}
+
+.section {
+    padding-bottom: 3rem;
+}
+.tombol-sosmed a{
+    padding: 1rem 1.5rem;
+    color:  rgb(0, 213, 255);
+    background-color: transparent;
+    border: 1px solid rgb(0, 213, 255);
+    border-radius: 50px;
+    margin-right: 1.5rem;
+    font-size: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.tombol-sosmed a:hover{
+    background-color: rgb(0, 213, 255);
+    color:  rgb(36, 55, 100);
+}
+.Pembungkus-tombol{
+    display: flex;
+    align-items: left; 
+}
+.Image img{
+    border: 1px; 
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+#services {
+    padding: 30px 0;
+}
+
+.services-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.services-list div {
+    background-color: white;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-right: 10px;
+    transition: background 0.3s, transform 0.5s;
+}
+
+.services-list div i {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.services-list div h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.services-list div a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.services-list div:hover {
+    background: rgb(255, 255, 255);
+    transform: translateY(-10px);
+}
